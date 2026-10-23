@@ -32,3 +32,6 @@ std = [
     "thiserror/std",
     "uniswap-sdk-core/std"
 ]
+
+[profile.dev.package."*"]
+debug = false
